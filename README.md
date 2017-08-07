@@ -1,5 +1,5 @@
 # ng4-library-generator [![Build Status](https://travis-ci.org/bokzor/generator-ng4-library.svg?branch=master)](https://travis-ci.org/bokzor/generator-ng4-library)
->Simply scaffold your angular 2.0+ library with this yeoman generator and start writing code without having to setup any tedious boilerplate tooling. 
+>Simply scaffold your angular 2.0+ library with this yeoman generator and start writing code without having to setup any tedious boilerplate tooling. Externals assets are handled correctly (templateUrl & external css)
 
 Everything is pre-configured, from a local development server with unit tests, through to publishing your library to npm and a demo to github pages. Hopefully the [angular-cli](https://cli.angular.io/) project will one day make this generator obsolete, however currently the angular-cli is geared towards creating a full web-app rather than just a single re-usable npm library.
 
