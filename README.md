@@ -5,7 +5,7 @@ Everything is pre-configured, from a local development server with unit tests, t
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and `generator-angular-library` using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and `generator-ng4-library` using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo generator-ng4-library
