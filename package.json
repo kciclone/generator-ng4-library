@@ -1,0 +1,51 @@
+{
+  "name": "generator-ng4-library",
+  "version": "1.0.0",
+  "description": "Generate a angular 2.0+ scaffolding suitable for publishing a re-usable library to npm with templateUrl",
+  "homepage": "",
+  "main": "generators/app/index.js",
+  "keywords": [
+    "angular",
+    "angular2",
+    "library",
+    "yeoman-generator"
+  ],
+  "repository": "git@github.com/bokzor/generator-ng4-library.git",
+  "dependencies": {
+    "@danielbayerlein/caniuse-yarn": "^1.1.0",
+    "chalk": "^2.0.1",
+    "is-null-like": "^1.0.3",
+    "lodash": "^4.13.1",
+    "shelljs": "^0.7.6",
+    "yeoman-generator": "^1.0.1",
+    "yosay": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "cross-env": "^5.0.4",
+    "mocha": "^3.4.2",
+    "nixt": "^0.5.0",
+    "xo": "^0.18.2",
+    "yo": "^1.8.5"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "xo",
+    "preversion": "npm test",
+    "postversion": "npm publish",
+    "pretest": "npm run lint",
+    "test": "cross-env NODE_ENV=test mocha --timeout 300000",
+    "test:watch": "npm test -- --watch"
+  },
+  "xo": {
+    "space": true,
+    "envs": [
+      "node",
+      "mocha"
+    ],
+    "rules": {
+      "linebreak-style": 0,
+      "eol-last": 0
+    }
+  }
+}
