@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { expect } from 'chai';
-import { HelloWorldComponent } from '../src/hello-world.component';
+import { HelloWorldComponent } from './hello-world.component';
 import { <%- ngModuleName %> } from '../src';
 
 describe('<%- selectorPrefix %>-hello-world component', () => {
@@ -15,7 +15,7 @@ describe('<%- selectorPrefix %>-hello-world component', () => {
       HelloWorldComponent
     > = TestBed.createComponent(HelloWorldComponent);
     fixture.detectChanges();
-    expect(fixture.nativeElement.innerHTML.trim()).to.equal(
+    expect(fixture.nativeElement.innerHTML.trim()).toContain(
       'Hello world from the <%- projectTitle %> module!'
     );
   });
