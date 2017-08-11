@@ -1,7 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { expect } from 'chai';
 import { HelloWorldComponent } from './hello-world.component';
-import { <%- ngModuleName %> } from '../src';
 
 describe('<%- selectorPrefix %>-hello-world component', () => {
   beforeEach(() => {
