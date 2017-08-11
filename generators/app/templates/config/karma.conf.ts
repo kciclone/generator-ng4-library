@@ -135,7 +135,7 @@ export default function (config) {
 
   if (process.env.TRAVIS) {
     configuration.browsers = [
-      'ChromeTravisCi'
+      'ChromeHeadless'
     ];
   }
 
