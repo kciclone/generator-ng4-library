@@ -46,6 +46,7 @@
     "rules": {
       "linebreak-style": 0,
       "eol-last": 0
-    }
+    },
+    "ignore": ["generators/app/templates/config/spec-bundle.js"]
   }
 }
