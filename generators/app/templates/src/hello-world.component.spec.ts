@@ -6,7 +6,6 @@ import { <%- ngModuleName %> } from '../src';
 describe('<%- selectorPrefix %>-hello-world component', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [<%- ngModuleName %>.forRoot()]
     });
   });
 
