@@ -14,7 +14,7 @@ describe('<%- selectorPrefix %>-hello-world component', () => {
       HelloWorldComponent
     > = TestBed.createComponent(HelloWorldComponent);
     fixture.detectChanges();
-    expect(fixture.nativeElement.innerHTML.trim()).toContaine(
+    expect(fixture.nativeElement.innerHTML.trim()).toContain(
       'Hello world from the <%- projectTitle %> module!'
     );
   });
